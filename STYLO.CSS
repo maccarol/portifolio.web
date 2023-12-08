@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(161, 94, 243);
+}
+
+header {
+	border-bottom: 2px solid rgb(0, 0, 0);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+	background-color: white;
+}
+
+.titulo {
+	font-family: poppins;
+	font-size: 40px;
+	color: black;
+	letter-spacing: 1px;
+}
+
+.itens-cabeçalho {
+	text-decoration: none;
+	color: rgb(223, 39, 167);
+	padding: 0 20px;
+	font-weight: 600;
+	font-size: 19px;
+	transition: .3s;
+}
+
+.itens-cabeçalho:hover {
+	color: rgb(12, 12, 87);
+}
+
+#id-item {
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 15px 0;
+	font-weight: 500;
+	transition: .3s;
+}
+
+#id-item:hover {
+	border-radius: 0 15px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(50, 200, 185);
+	font-weight: 500;
+}
+
+h2 {
+	font-family: 'open sans', ;
+	font-size: 60px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	margin-top: 15px;
+}
+
+.spn-main {
+	color: rgb(50, 200, 185);
+	letter-spacing: 3px;
+	font-family: open sans, ;
+}
+
+main {
+	border-bottom: 2px solid rgb(50, 200, 185);
+	display: flex;
+	padding: 30px 40px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.titulo-principal {
+	font-size: 50px;
+	font-family: 'open sans' sans-serif;
+	color: rgb(223, 39, 167);
+}
+
+
+
+.texto {
+	font-family: 'open sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600px;
+	margin-top: 5px;
+	color: rgb(50, 200, 185);
+}
+
+#rede-social {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+	font-family: 'bebas Neue';
+	color: rgb(223, 39, 167);
+}
+
+.icon {
+	width: 25px;
+	margin-left: 6px;
+}
+
+.avaliar {
+	margin-top: 25px;
+}
+
+.avaliação {
+	text-decoration: none;
+	font-size: 15px;
+	margin-top: 100px;
+	padding: 10px 15px;
+	color: white;
+	background-color: rgb(50, 200, 185);
+	border-radius: 10px 0;
+	font-weight: 600;
+	font-family: 'poppins', sans-serif;
+	transition: .3s;
+}
+
+.avaliação:hover {
+	background-color: rgb(0, 0, 0);
+	border-radius: 0 10px;
+	color: rgb(50, 200, 185);
+
+}
+
+.imagem-principal {
+	width: 420px;
+	right: 100PX;
+}
+
+footer {
+	background-color: white;
+	padding-top: 10px;
+}
+
+.spn-footer {
+	color: rgb(50, 200, 185);
+	font-family: open sans;
+}
+
+.copy {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'poppins' sans-serif;
+	color: rgb(223, 39, 167);
+}
+
+footer {
+	background-color: white;
+	padding-top: 10px;
+}
+
+.spn-footer {
+	color: rgb(50, 200, 185);
+	font-family: open sans;
+}
+
+.copy {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'poppins' sans-serif;
+	color: rgb(223, 39, 167);
+}

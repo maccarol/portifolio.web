@@ -1,0 +1,188 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(208, 204, 212);
+}
+
+header {
+	border-bottom: 2px solid rgb(0, 0, 0);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+	background-color: white;
+}
+
+.titulo {
+	font-family: poppins;
+	font-size: 40px;
+	color: rgb(7, 1, 5);
+	letter-spacing: 1px;
+}
+
+.itens-cabeçalho {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 0 20px;
+	font-weight: 600;
+	font-size: 19px;
+	transition: .3s;
+}
+
+.itens-cabeçalho:hover {
+	color: rgb(12, 12, 87);
+}
+
+#id-item {
+	text-decoration: none;
+	color:  rgb(0, 0, 0);
+	padding: 10px 20px;
+	border: rgb(7, 7, 7) 2px solid;
+	border-radius: 15px 0;
+	font-weight: 500;
+	transition: .3s;
+}
+
+#id-item:hover {
+	border-radius: 0 15px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+}
+
+h2 {
+	font-family: 'open sans', ;
+	font-size: 60px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	margin-top: 15px;
+}
+
+.spn-main {
+	color: rgb(0, 0, 0);
+	letter-spacing: 3px;
+	font-family: open sans, ;
+}
+
+main {
+	border-bottom: 2px solid rgb(0, 0, 0);
+	display: flex;
+	padding: 30px 40px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.titulo-principal {
+	font-size: 80px;
+	font-family: 'open sans' sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+.fortaleza {
+	font-size: 40px;
+	color: rgb(223, 39, 167);
+
+}
+
+.texto {
+	font-family: 'open sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600px;
+	margin-top: 5px;
+	color: rgb(24, 7, 37);
+}
+
+#rede-social {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+	font-family: 'bebas Neue';
+	color: rgb(0, 0, 0);
+}
+
+.icon {
+	width: 25px;
+	margin-left: 6px;
+}
+
+.avaliar {
+	margin-top: 25px;
+}
+
+.avaliação {
+	text-decoration: none;
+	font-size: 15px;
+	margin-top: 100px;
+	padding: 10px 15px;
+	color: white;
+	background-color: rgb(0, 0, 0);
+	border-radius: 10px 0;
+	font-weight: 600;
+	font-family: 'poppins', sans-serif;
+	transition: .3s;
+}
+
+.avaliação:hover {
+	background-color: rgb(0, 0, 0);
+	border-radius: 0 10px;
+	color: rgb(50, 200, 185);
+
+}
+
+.img{
+	width: 50px;
+	
+}
+
+.imagem-principal {
+	width: 200px;
+	right: 100PX;
+	border-radius: 50px;
+}
+
+footer {
+	background-color: white;
+	padding-top: 10px;
+
+}
+
+.spn-footer {
+	color: rgb(0, 0, 0);
+	font-family: open sans;
+}
+
+.copy {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'poppins' sans-serif;
+	color: rgba(70, 0, 55, 0.178))
+}
+
+footer {
+	background-color: white;
+	padding-top: 10px;
+}
+
+.spn-footer {
+	color: rgb(0, 0, 0);
+	font-family: open sans;
+}
+
+.copy {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'poppins' sans-serif;
+	color: rgb(0, 0, 0);
+}
